@@ -1,30 +1,25 @@
-# JSFundamentals Course Description
+# JavaScript 301 Workshop
 
-Come here to solidify your understanding of functions and get started with functional programming in JavaScript. This is a highly interactive course that uses exercises and projects to drive home these JS Fundamentals. You will finish this course with deep knowledge on one of the most important aspects of the language: functions.
+You're here to solidify your understanding of functions and get started with functional programming in JavaScript. This is a highly interactive workshop that uses exercises and projects to drive home these JS Fundamentals. You will finish this workshop with deep knowledge of one of the most important aspects of the language: functions.
 
 
-## Goals of this course
+## Goals of this workshop
 
-The goal of the JavaScript Fundamentals part 1 and 2 is to give technical foundation and support for those who have been learning JavaScript for a couple of months, so that they will have reached a level required for the MakerSquare admission's interviews.
+The goal of this workshop is to give a technical foundation and support for those who have been learning JavaScript for a couple of months, so that they will have reached a level required for the MakerSquare technical interview.
 
-*IMPORTANT*: completion of the MKSJR courses is no guarantee of admission, nor has any influence in the admissions process.
-
-It is our goal, however, that students who successfully complete the MKSJR series will have covered all JavaScript topics necessary for the interview.
-
-If MakerSquare takes people from 60 to 120 in web development, then MakerSquare Junior takes people from 10 to 60 ('coz we don't teach variables and the like).
+*IMPORTANT*: Completion of this workshop is no guarantee of admission into the MakerSquare immersive program, nor does it have any influence in the admissions process.
 
 ## Prerequisites
 
-It is recommended that students take JS Fundamentals: Objects, Arrays and Functions prior to this course; however it is not required. Students should have 3-5 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax. 
+It is recommended that students understand Javascript Objects, Arrays and Functions prior to this course; however it is not required. Students should have 3-5 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax.
 
 ## Textbook
 
-No textbook is required for this course. All materials are included in this github repo.
+No textbook is required for this course. All materials are included in this GitHub repo.
 
 ## Technical requirements
 
-Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this course becuase its fast, light weight and you can run your JavaScript files in its console with Node.
-
+Laptop, Google Chrome browser and a text editor. We recommend Sublime Text 3 for this workshop becuase it's fast and light-weight.
 
 
 ##Resources
