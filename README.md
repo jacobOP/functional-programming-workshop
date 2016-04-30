@@ -11,7 +11,7 @@ The goal of this workshop is to give a technical foundation and support for thos
 
 ## Prerequisites
 
-It is recommended that students understand Javascript Objects, Arrays and Functions prior to this course; however it is not required. Students should have 3-5 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax.
+It is recommended that students understand Javascript Objects, Arrays and Functions prior to this course; however it is not required. Students should have 2-3 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax.
 
 ## Textbook
 
