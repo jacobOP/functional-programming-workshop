@@ -44,6 +44,7 @@
         expect(function () {
           ACTUAL = localToFirstFn;
         }).to.throw();
+
         expect(ACTUAL === '???').to.be.true;
       });
 
@@ -101,7 +102,7 @@
         expect(ACTUAL === '???').to.be.true;
       });
 
-      it('a new variable scope is created for each call to a function, as exemplified with uninitialized string variables', function () {
+      it('a new variable scope is created for each call to a function, as exemplified with uninitialized string variable', function () {
         // this is a longer form of the same observation as above, using strings in stead of numbers.
         var fn = function () {
           var localVariable;
@@ -154,6 +155,7 @@
           var innerIncrementingFn = function () {
             counterInOuterScope = counterInOuterScope + 1;
             ACTUAL = counterInOuterScope;
+            console.log(ACTUAL);
           };
 
           innerIncrementingFn();
@@ -161,7 +163,7 @@
           innerIncrementingFn();
           expect(ACTUAL === '???').to.be.true;
           // Here, we retain a reference to the newly created inner function for later, by assigning it to the global scope (window)
-          window.retainedInnerFn = innerIncrementingFn;
+          window.retainedInnerFn = innerIncrementingFn; // typeof retainedInnerFn === 'function'
 
         };
 
@@ -173,6 +175,8 @@
         // even though the outerFn has returned once the only call to it was completed a couple of lines above, the inner function remains available in the global scope, and still has access to the variables of that containing scope where it was first created.
         window.retainedInnerFn();
         expect(ACTUAL === '???').to.be.true;
+
+        outerFn();
       });
 
   });
